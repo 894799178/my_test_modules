@@ -1,0 +1,13 @@
+# 应用系统设置
+[setting]
+    logpath = "/tmp/log/gf-demos"
+
+# 数据库连接
+[database]
+    [[database.default]]
+        host = "127.0.0.1"
+        port = "3306"
+        user = "root"
+        pass = "123456"
+        name = "test"
+        type = "mysql"
